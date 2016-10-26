@@ -8,6 +8,7 @@
     "eslint-config-mailonline": "^2.0.0",
     "husky": "^0.11.7",
     "jsonlint": "^1.6.2",
+    "semantic-release": "^4.3.5",
     "stylelint": "^7.2.0"
   },
   "keywords": [
@@ -24,6 +25,7 @@
     "format": "jsonlint --sort-keys --in-place --indent '  ' ./stylelintrc.json && echo '' >> ./stylelintrc.json",
     "lint": "eslint ./index.js",
     "precommit": "npm run lint && npm run format",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": ""
   },
   "version": "1.0.0"
