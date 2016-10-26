@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "stylelint-config-standard": "^14.0.0"
+  },
+  "description": "MailOnline stylelint configuration.",
+  "devDependencies": {
+    "husky": "^0.11.7",
+    "jsonlint": "^1.6.2",
+    "stylelint": "^7.2.0"
+  },
+  "keywords": [
+    "stylelint-config"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "./index.js",
+  "name": "stylelint-config-mailonline",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mailonline/stylelint-config-mailonline"
+  },
+  "scripts": {
+    "format": "jsonlint --sort-keys --in-place --indent '  ' ./stylelintrc.json && echo '' >> ./stylelintrc.json",
+    "precommit": "npm run format",
+    "test": ""
+  },
+  "version": "1.0.0"
+}
