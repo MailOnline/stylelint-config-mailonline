@@ -17,7 +17,7 @@ Create stylelint configuration file (`.stylelintrc`) that extends `stylelint-con
 
 ```json
 {
-    "extends": "stylelint-config-mailonline"
+  "extends": "stylelint-config-mailonline"
 }
 ```
 
