@@ -5,11 +5,11 @@
   "description": "MailOnline stylelint configuration.",
   "devDependencies": {
     "eslint": "^4.3.0",
-    "eslint-config-mailonline": "^7.0.1",
+    "eslint-config-mailonline": "^9.0.0",
     "husky": "^0.14.3",
     "jsonlint": "^1.6.2",
-    "semantic-release": "^6.3.6",
-    "stylelint": "~8.0.0"
+    "semantic-release": "^8.2.0",
+    "stylelint": "~8.2.0"
   },
   "keywords": [
     "stylelint-config"
