@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "stylelint-config-standard": "^17.0.0"
+    "stylelint-config-standard": "^18.0.0"
   },
   "description": "MailOnline stylelint configuration.",
   "devDependencies": {
