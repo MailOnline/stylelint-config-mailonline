@@ -25,7 +25,7 @@
     "format": "jsonlint --sort-keys --in-place --indent '  ' ./stylelintrc.json && echo '' >> ./stylelintrc.json",
     "lint": "eslint ./index.js",
     "precommit": "npm run lint && npm run test && npm run format",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "semantic-release": "semantic-release",
     "test": "echo 'this project has no test'"
   },
   "version": "1.0.0"
