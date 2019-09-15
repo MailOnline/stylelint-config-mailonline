@@ -9,7 +9,7 @@
     "husky": "^0.14.3",
     "jsonlint": "^1.6.3",
     "semantic-release": "^15.1.5",
-    "stylelint": "^9.2.0"
+    "stylelint": "^11.0.0"
   },
   "keywords": [
     "stylelint-config"
