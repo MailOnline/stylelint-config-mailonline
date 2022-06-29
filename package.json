@@ -8,7 +8,7 @@
     "eslint-config-mailonline": "^9.0.0",
     "husky": "^0.14.3",
     "jsonlint": "^1.6.3",
-    "semantic-release": "^15.1.5",
+    "semantic-release": "^17.0.1",
     "stylelint": "^9.2.0"
   },
   "keywords": [
