@@ -1,22 +1,9 @@
 {
-  "dependencies": {
-    "stylelint-config-standard": "^18.2.0"
-  },
+  "name": "stylelint-config-mailonline",
   "description": "MailOnline stylelint configuration.",
-  "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-mailonline": "^9.0.0",
-    "husky": "^0.14.3",
-    "jsonlint": "^1.6.3",
-    "semantic-release": "^15.1.5",
-    "stylelint": "^9.2.0"
-  },
-  "keywords": [
-    "stylelint-config"
-  ],
+  "version": "1.0.0-MOL-29290.0",
   "license": "BSD-3-Clause",
   "main": "./index.js",
-  "name": "stylelint-config-mailonline",
   "repository": {
     "type": "git",
     "url": "https://github.com/mailonline/stylelint-config-mailonline"
@@ -26,7 +13,24 @@
     "lint": "eslint ./index.js",
     "precommit": "npm run lint && npm run test && npm run format",
     "semantic-release": "semantic-release",
-    "test": "echo 'this project has no test'"
+    "test": "echo 'this project has no test'",
+    "build": "NODE_ENV=production webpack -p"
   },
-  "version": "1.0.0"
+  "dependencies": {
+    "stylelint-config-standard": "^36.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "eslint-config-mailonline": "^12.0.0",
+    "eslint": "^9.0.0",
+    "husky": "^7.0.2",
+    "jsonlint": "^1.6.3",
+    "semantic-release": "^22.0.12",
+    "stylelint": "^16.3.1"
+  },
+  "keywords": [
+    "stylelint-config"
+  ]
 }
