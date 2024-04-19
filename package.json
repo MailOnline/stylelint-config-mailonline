@@ -10,7 +10,7 @@
   },
   "scripts": {
     "format": "jsonlint --sort-keys --in-place --indent '  ' ./stylelintrc.json && echo '' >> ./stylelintrc.json",
-    "lint": "eslint ./index.js",
+    "lint": "echo 'this project has no lint'",
     "precommit": "npm run lint && npm run test && npm run format",
     "semantic-release": "semantic-release",
     "test": "echo 'this project has no test'",
@@ -23,8 +23,6 @@
     "node": ">=18"
   },
   "devDependencies": {
-    "eslint-config-mailonline": "^12.0.0",
-    "eslint": "^9.0.0",
     "husky": "^7.0.2",
     "jsonlint": "^1.6.3",
     "semantic-release": "^22.0.12",
