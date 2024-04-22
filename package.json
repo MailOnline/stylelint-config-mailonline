@@ -13,8 +13,7 @@
     "lint": "echo 'this project has no lint'",
     "precommit": "npm run lint && npm run test && npm run format",
     "semantic-release": "semantic-release",
-    "test": "echo 'this project has no test'",
-    "build": "NODE_ENV=production webpack -p"
+    "test": "echo 'this project has no test'"
   },
   "engines": {
     "node": ">=18"
