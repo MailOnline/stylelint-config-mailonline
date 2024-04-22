@@ -8,15 +8,12 @@
       ],
       "rules": {
         "scss/at-mixin-pattern": null,
-        "scss/dollar-variable-pattern": null,
-        "scss/no-global-function-names": null
+        "scss/dollar-variable-pattern": null
       }
     }
   ],
   "rules": {
-    "color-function-notation": null,
     "keyframes-name-pattern": null,
-    "media-feature-range-notation": null,
     "no-descending-specificity": null,
     "no-invalid-position-at-import-rule": null,
     "property-no-unknown": [
@@ -27,7 +24,6 @@
         ]
       }
     ],
-    "selector-class-pattern": null,
     "selector-id-pattern": null,
     "selector-pseudo-class-no-unknown": [
       true,
