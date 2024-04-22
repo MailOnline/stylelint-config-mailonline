@@ -1,7 +1,7 @@
 {
   "name": "stylelint-config-mailonline",
   "description": "MailOnline stylelint configuration.",
-  "version": "1.0.0-MOL-29290.1",
+  "version": "1.0.0-MOL-29290.2",
   "license": "BSD-3-Clause",
   "main": "./index.js",
   "repository": {
@@ -9,9 +9,8 @@
     "url": "https://github.com/mailonline/stylelint-config-mailonline"
   },
   "scripts": {
-    "format": "jsonlint --sort-keys --in-place --indent '  ' ./stylelintrc.json && echo '' >> ./stylelintrc.json",
     "lint": "echo 'this project has no lint'",
-    "precommit": "npm run lint && npm run test && npm run format",
+    "precommit": "npm run lint && npm run test",
     "semantic-release": "semantic-release",
     "test": "echo 'this project has no test'"
   },
@@ -20,7 +19,6 @@
   },
   "devDependencies": {
     "husky": "^7.0.2",
-    "jsonlint": "^1.6.3",
     "semantic-release": "^22.0.12"
   },
   "peerDependencies": {
