@@ -14,7 +14,6 @@ module.exports = {
   ],
   "rules": {
     "keyframes-name-pattern": null,
-    "no-descending-specificity": null,
     "no-invalid-position-at-import-rule": null,
     "property-no-unknown": [
       true,
