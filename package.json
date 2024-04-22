@@ -1,7 +1,7 @@
 {
   "name": "stylelint-config-mailonline",
   "description": "MailOnline stylelint configuration.",
-  "version": "1.0.0-MOL-29290.2",
+  "version": "1.0.0",
   "license": "BSD-3-Clause",
   "main": "./index.js",
   "repository": {
