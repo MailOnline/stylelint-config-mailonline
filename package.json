@@ -21,11 +21,10 @@
     "husky": "^7.0.2",
     "semantic-release": "^22.0.12"
   },
-  "peerDependencies": {
-    "postcss": "^8.4.38",
-    "stylelint-config-standard-scss": "^13.1.0",
+  "dependencies": {
+    "stylelint": "^16.3.1",
     "stylelint-config-standard": "^36.0.0",
-    "stylelint": "^16.3.1"
+    "stylelint-config-standard-scss": "^13.1.0"
   },
   "keywords": [
     "stylelint-config"
