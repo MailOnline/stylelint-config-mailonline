@@ -1,7 +1,5 @@
 # `stylelint-config-mailonline`
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/MailOnline/stylelint-config-mailonline.svg)](https://greenkeeper.io/)
-
 [![NPM version](http://img.shields.io/npm/v/stylelint-config-mailonline.svg?style=flat-square)](https://www.npmjs.org/package/stylelint-config-mailonline)
 
 MailOnline [stylelint](http://stylelint.io/) configuration.
@@ -14,12 +12,13 @@ Add `stylelint-config-mailonline` as a development dependency:
 npm install stylelint-config-mailonline --save-dev
 ```
 
-Create stylelint configuration file (`.stylelintrc`) that extends `stylelint-config-mailonline`:
+Create stylelint configuration file (`.stylelintrc.js`) that extends `stylelint-config-mailonline`:
 
-```json
-{
-  "extends": "stylelint-config-mailonline"
-}
+```js
+module.exports = {
+  "extends": "stylelint-config-mailonline",
+  // additional config here
+};
 ```
 
 ## Breaking changes
