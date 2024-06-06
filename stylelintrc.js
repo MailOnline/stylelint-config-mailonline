@@ -13,6 +13,7 @@ module.exports = {
     }
   ],
   "rules": {
+    "alpha-value-notation": "number", // using "number" here because "percentile" is not supported in rgba function and may break the code if used
     "keyframes-name-pattern": null,
     "no-invalid-position-at-import-rule": null,
     "property-no-unknown": [
