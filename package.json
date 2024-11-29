@@ -15,7 +15,7 @@
     "test": "echo 'this project has no test'"
   },
   "engines": {
-    "node": ">=18.x"
+    "node": ">=18.0.0"
   },
   "devDependencies": {
     "husky": "^7.0.2",
